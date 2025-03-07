@@ -249,7 +249,7 @@ html, body {
     /*custom cursor*/
   
   body{
-    cursor: url('cursor.png'), auto;
+    cursor: url('/cursor.png'), auto;
   }
 
 
