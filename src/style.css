@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  //Welcome to website 
+  /*Welcome to website*/
   .Welcome {
     z-index: 100;
     width: 90%;
@@ -21,9 +21,10 @@ html, body {
     text-shadow: 1px 1px rgba(0,0,0,0.1);
     text-align: center;
     left: 50%;
+    margin-top: -2.5%;
     transform: translateX(-50%); 
     overflow: hidden
-    //website paragraph
+    /*website paragraph*/
   }
   .para {
     z-index: 100;
@@ -45,7 +46,14 @@ html, body {
     transform: translateX(-50%); 
     text-wrap: 10px;
   }    
-  //src link
+  /*src link*/
+
+
+.button:hover .stars {
+  display:block;
+  filter: drop-shadow(0 0 10px #fffdef);
+}
+
 
 .github {
   z-index: 100;
@@ -66,9 +74,9 @@ html, body {
   transform: translateX(-5%); 
   text-wrap: 10px;
 }
-  //bubble background
+  /*clean background*/
   :root {
-    --color-bg1: rgb(108, 0, 162);
+    --color-bg1: rgb(240, 237, 241);
     --color-bg2: rgb(0, 17, 82);
     --color1: 18, 113, 255;
     --color2: 221, 74, 255;
@@ -235,8 +243,13 @@ html, body {
   
       opacity: 0.7;
     }
-    //custom cursor
+    
   }
+
+    /*custom cursor*/
+  
   body{
     cursor: url('cursor.png'), auto;
   }
+
+
