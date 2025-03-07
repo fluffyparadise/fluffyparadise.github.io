@@ -3,63 +3,55 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  /*Welcome to website*/
-  .Welcome {
-    z-index: 100;
-    width: 90%;
-    height: 100%;
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-items: top;
-    font-size: 76px;
-    word-spacing: 0%;
-    line-height: .75;
-    margin: auto;
-    color: white;
-    opacity: 0.8;
-    user-select: none;
-    text-shadow: 1px 1px rgba(0,0,0,0.1);
-    text-align: center;
-    left: 50%;
-    margin-top: -2.5%;
-    transform: translateX(-50%); 
-    overflow: hidden
-    /*website paragraph*/
+
+    /*Welcome to website*/
+    .welcome {
+      z-index: 100;
+      max-width: 90vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: absolute;
+      font-size: 78px;
+      text-align: center;
+      color: white;
+      opacity: 0.96;
+      left: 50%;
+      transform: translateX(-50%);
+      overflow: hidden;
+      user-select: none;
+      text-shadow: 1px 1px rgba(0,0,0,0.1);
+
+      line-height: 0.8;
   }
+  
   .para {
-    z-index: 100;
-    width: 95%;
-    height: 100%;
-    display: flex;
-    position: fixed;
-    justify-self: center;
-    align-items: last baseline;
-    font-size: 35px;
-    line-height: .75;
-    color: white;
-    opacity: 0.8;
-    margin: auto;
-    user-select: none;
-    text-shadow: 1px 1px rgba(0,0,0,0.1);
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%); 
-    text-wrap: 10px;
-  }    
-  /*src link*/
+      z-index: 100;
+      max-width: 90vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: absolute;
+      bottom: 1%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 32px;
+      color: white;
+      opacity: 0.96;
+      text-align: center;
+      user-select: none;
+      text-shadow: 1px 1px rgba(0,0,0,0.1);
 
-
-.button:hover .stars {
-  display:block;
-  filter: drop-shadow(0 0 10px #fffdef);
-}
-
+      line-height: 0.8;
+  }
+  
+  
+  
 
 .github {
   z-index: 100;
   width: 95%;
-  height: 101%;
+  height: 100%;
   display: flex;
   position: fixed;
   justify-self: center;
@@ -71,6 +63,7 @@ html, body {
   margin: auto;
   user-select: none;
   text-align: center;
+  overflow: hidden;
   left: 5%;
   transform: translateX(-5%); 
   text-wrap: 10px;
