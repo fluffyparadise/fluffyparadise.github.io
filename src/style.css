@@ -76,8 +76,8 @@ html, body {
 }
   /*clean background*/
   :root {
-    --color-bg1: rgb(240, 237, 241);
-    --color-bg2: rgb(0, 17, 82);
+    --color-bg1: rgba(108, 0, 162, 0.9);
+    --color-bg2: rgba(0, 16, 82, 0.9);
     --color1: 18, 113, 255;
     --color2: 221, 74, 255;
     --color3: 100, 220, 255;
