@@ -10,6 +10,7 @@
     "start": "vite"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.85.0",
     "typescript": "~5.7.2",
     "vite": "^6.1.0"
