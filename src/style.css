@@ -21,7 +21,7 @@ html, body {
       overflow: hidden;
       user-select: none;
       text-shadow: 1px 1px rgba(0,0,0,0.1);
-
+      top: 1%;
       line-height: 0.8;
   }
   
